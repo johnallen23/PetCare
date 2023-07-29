@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".AddPet">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/addbackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="10sp"
+                    android:backgroundTint="#DA8181"
+                    android:text="Back"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="ADD PET"
+                android:textColor="#DA8181"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Enter your pet's credentials"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:layout_marginLeft="35dp"
+                android:text="Pet Name:"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/petNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="35dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:minHeight="48dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pet Classification:"
+                android:gravity="center"
+                android:layout_marginStart="35dp"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/petClassGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/DogradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Dog"
+                    android:textColor="#DA8181" />
+
+                <RadioButton
+                    android:id="@+id/CatradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Cat"
+                    android:textColor="#DA8181" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sex Category:"
+                android:gravity="center"
+                android:layout_marginStart="35dp"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/petGenderGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/MaleradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Male"
+                    android:textColor="#DA8181" />
+
+                <RadioButton
+                    android:id="@+id/FemaleradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Female"
+                    android:textColor="#DA8181" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pet Breed:"
+                android:gravity="center"
+                android:layout_marginStart="35dp"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/petBreedGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/LargeradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Large Breed"
+                    android:textColor="#DA8181" />
+
+                <RadioButton
+                    android:id="@+id/SmallradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Small Breed"
+                    android:textColor="#DA8181" />
+
+                <RadioButton
+                    android:id="@+id/StrayradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="50dp"
+                    android:text="Stray Animal"
+                    android:textColor="#DA8181" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:text="Birth Date:"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mm-dd-yyyy"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#DA8181"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/datePickerButton"
+                    android:layout_width="200dp"
+                    android:layout_height="58dp"
+                    android:backgroundTint="#FFBFBF"
+                    android:gravity="center"
+                    android:text="Select Date"
+                    android:textColor="#A76007"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:text="Age:"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/petAgeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Age"
+                android:textColor="#DA8181"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15sp"
+                android:backgroundTint="#FFBFBF"
+                android:gravity="center"
+                android:text="Save Pet"
+                android:textColor="#A76007"
+                android:textSize="16sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

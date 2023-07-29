@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5D7D7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Welcome."
+            android:textColor="#DA8181"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/main_logo"
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            app:srcCompat="@drawable/pngegg" />
+
+        <Button
+            android:id="@+id/userLoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FFBFBF"
+            android:text="User Login"
+            android:textColor="#A76007" />
+
+        <Button
+            android:id="@+id/adminLoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FFBFBF"
+            android:text="Admin Login"
+            android:textColor="#A76007" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

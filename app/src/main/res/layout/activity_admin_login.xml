@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".AdminLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/adminloginbackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#DA8181"
+            android:text="Back"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+            android:text="Hello, Admin."
+            android:textColor="#DA8181"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="left"
+            android:text="LOGIN YOUR ACCOUNT:"
+            android:textColor="#DA8181"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Email"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/showPasswordCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:textColor="#DA8181"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/adminLoginButton"
+            android:layout_width="362dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFBFBF"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#A76007"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="169dp"
+            android:layout_marginStart="90sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/pngegg__1_" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

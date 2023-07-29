@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Group 3 Project Pet Care</string>
+    <string name="Forgotpass">Forgot Password?</string>
+    <string name="Register">Register.</string>
+    <string name="Login">Login</string>
+
+</resources>

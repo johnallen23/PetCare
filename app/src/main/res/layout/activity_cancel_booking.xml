@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".cancelBooking">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cancelbackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#DA8181"
+                android:text="Back"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/forgotpassLogo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pngegg" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="sans-serif-black"
+                android:text="Reason:"
+                android:textColor="#DA8181"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="210dp"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/listDivider" />
+
+
+            <Spinner
+                android:id="@+id/reasonSpinner"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center" />
+
+
+            <View
+                android:layout_width="210dp"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/listDivider" />
+
+            <EditText
+                android:id="@+id/reasonEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:hint="Enter your reason here"
+                android:inputType="textMultiLine"
+                android:minHeight="48dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20sp"
+                android:backgroundTint="#FFBFBF"
+                android:text="Confirm"
+                android:textColor="#A76007"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

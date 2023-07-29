@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".BookNow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/bookbackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="20sp"
+                android:backgroundTint="#DA8181"
+                android:text="Back"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Book Now"
+                    android:textAlignment="textStart"
+                    android:textColor="#DA8181"
+                    android:textSize="40sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pngegg" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <!-- Owner's Information -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Owner's Information"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#D81B60"
+                android:layout_marginBottom="8dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="15dp"
+                    android:text="   Name:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ownerNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="9dp"
+                    android:text="Name"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="15dp"
+                    android:text="    Email:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ownerEmailTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="8dp"
+                    android:text="Email"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="15dp"
+                    android:text="Number:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ownerNumberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="7dp"
+                    android:text="Number"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="15dp"
+                    android:text="Address:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ownerAddressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="5dp"
+                    android:text="Address"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <!-- Pet's Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pet's Information"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#D81B60"
+                android:layout_marginBottom="8dp"/>
+
+
+
+            <TextView
+                android:id="@+id/selectTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:text="Select a Pet"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#DA8181"
+                android:textSize="23sp" />
+
+
+            <View
+                android:layout_width="170dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/nopetTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:text="Add a Pet First"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:textSize="23sp" />
+
+            <Spinner
+                android:id="@+id/petSpinner"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minHeight="48dp" />
+
+            <View
+                android:layout_width="170dp"
+                android:layout_height="4dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="?android:attr/listDivider" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="25dp"
+                    android:text="Name:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="9dp"
+                    android:hint="Pet Name"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="30dp"
+                    android:text="Class:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petClassTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="8dp"
+                    android:hint="Clasification"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="15dp"
+                    android:text="Identity:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petSexTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="9dp"
+                    android:hint="Identity"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="26dp"
+                    android:text="Breed:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petBreedTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Breed"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="35dp"
+                    android:text="Birth:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petBirthTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="9dp"
+                    android:hint="Birth date"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="43dp"
+                    android:text="Age:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/petAgeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginLeft="8dp"
+                    android:hint="Age"
+                    android:textColorHint="#DA8181"
+                    android:textColor="#DA8181"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addpetButton"
+                android:layout_width="200dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="15sp"
+                android:backgroundTint="#FFBFBF"
+                android:gravity="center"
+                android:text="Add a Pet"
+                android:textColor="#A76007"
+                android:textSize="16sp" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical Record"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#D81B60"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/medicalRecordImageView"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pngwing_com__1_"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleTextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="NOTE:"
+                        android:textColor="#DA8181"
+                        android:textStyle="bold"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/titleTextView"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Must provide a proof of medical record of your pet for the verification purposes before proceeding."
+                        android:textColor="#DA8181"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/addImageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginBottom="15sp"
+                        android:backgroundTint="#FFBFBF"
+                        android:gravity="center"
+                        android:text="Add Image"
+                        android:textColor="#A76007"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <!-- Services -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Services"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#D81B60"
+                android:layout_marginBottom="8dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp">
+
+                <RadioButton
+                    android:id="@+id/haircutRb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Haircut" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/haircutLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php500.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/haircutSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:textSize="18dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php350.00"/>
+
+                    <TextView
+                        android:id="@+id/haircutStray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:textSize="18dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php200.00"/>
+                </LinearLayout>
+
+
+
+                <RadioButton
+                    android:id="@+id/bathAndBrushRb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bath and Brush"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BnbLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php600.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/BnbSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php400.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/BnbStray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php300.00"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/nailTrimmingRb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nail Trimming"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nailLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php200.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/nailSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php150.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/nailStray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php100.00"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/package1Rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 1: Haircut + Bath and Brush"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/package1Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php800.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package1Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php650.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package1Stray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php400.00"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/package2Rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 2: Bath and Brush + Nail Trimming"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/package2Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php750.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package2Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php500.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package2Stray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php350.00"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/package3Rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Package 3: Complete set "/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/package3Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Large Breeds - Php1200.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package3Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Small Breeds - Php800.00"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/package3Stray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:justificationMode="inter_word"
+                        android:text="➤ Stray Animals - Php500.00"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </RadioGroup>
+
+
+            <!-- Other Information -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Date and Time Information"
+                android:textColor="#D81B60"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/datePickerButton"
+                    android:layout_width="200dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="15sp"
+                    android:backgroundTint="#FFBFBF"
+                    android:gravity="center"
+                    android:text="Select Date"
+                    android:textColor="#A76007"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="mm-dd-yy"
+                    android:textColor="#DA8181"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/timePickerButton"
+                    android:layout_width="200dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="15sp"
+                    android:backgroundTint="#FFBFBF"
+                    android:gravity="center"
+                    android:text="Select Time"
+                    android:textColor="#A76007"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="hh:mm am/pm"
+                    android:textColor="#DA8181"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="20sp"
+                android:backgroundTint="#FFBFBF"
+                android:gravity="center"
+                android:text="Confirm"
+                android:textColor="#A76007"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

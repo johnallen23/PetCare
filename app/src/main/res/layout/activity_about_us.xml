@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/aboutbackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#DA8181"
+                android:text="Back"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/aboutLogo"
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                app:srcCompat="@drawable/pngegg" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="PET CARE"
+                android:textColor="#D81B60"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp"
+                android:text="App Version: 1.0"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:gravity="left"
+                android:text="About this Application:"
+                android:textColor="#DA8181"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="20sp"
+                android:justificationMode="inter_word"
+                android:text="1. Our grooming appointment app is a game-changer for pet owners, providing a convenient and efficient way to schedule and manage grooming appointments for their beloved pets. With just a few taps on your mobile device, you can easily book grooming sessions at your preferred time and date, eliminating the hassle of phone calls or in-person visits. Our user-friendly interface makes the booking process quick and effortless, giving you more time to focus on your pet's care and well-being." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:justificationMode="inter_word"
+                android:text="2. By using our grooming appointment app, you can say goodbye to long waiting times and crowded grooming salons. The app allows you to select from a range of available time slots, ensuring that you can secure an appointment that fits perfectly into your busy schedule. No more waiting in line or rushing to make it on time. Our app puts you in control, allowing you to choose the most convenient grooming appointment for you and your pet." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:justificationMode="inter_word"
+                android:text="3. We understand that each pet has unique grooming requirements, and our app caters to those needs. During the booking process, you can specify the specific grooming services your pet requires, whether it's a simple bath and brush, a haircut, nail trimming, or specialized treatments. This level of customization ensures that your pet receives the precise care they need, and our experienced groomers can prepare accordingly to provide exceptional service." />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:text="All Rights Reserved."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

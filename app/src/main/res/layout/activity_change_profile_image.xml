@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".ChangeProfileImage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/profilebackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="#DA8181"
+            android:text="Back"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="PROFILE IMAGE"
+            android:textColor="#DA8181"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            app:srcCompat="@drawable/kisspng_computer_icons_avatar_login_user_avatar_5ac207e6c8c133_5629676315226654468223" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/changeButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#DA8181"
+                android:text="Change"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#DA8181"
+                android:text="Save"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

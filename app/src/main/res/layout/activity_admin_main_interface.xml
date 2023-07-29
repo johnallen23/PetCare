@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".AdminMainInterface">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="181dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30sp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Welcome"
+                        android:textColor="#DA8181"
+                        android:textSize="40sp" />
+
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="ADMIN"
+                        android:textColor="#DA8181"
+                        android:textSize="60sp" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/mainUILogo"
+                    android:layout_width="124dp"
+                    android:layout_height="180dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pngegg" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="10sp"
+                android:background="?android:attr/listDivider" />
+
+
+
+            <Button
+                android:id="@+id/viewschedButton"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:backgroundTint="#FFBFBF"
+                android:isScrollContainer="false"
+                android:text="View Schedules"
+                android:textColor="#DA8181"
+                android:textSize="20dp"
+                app:icon="@drawable/pngegg__7_"
+                app:iconGravity="textEnd"
+                app:iconPadding="70dp"
+                app:iconSize="50dp" />
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:backgroundTint="#FFBFBF"
+                android:isScrollContainer="false"
+                android:text="Service Updates"
+                android:textColor="#DA8181"
+                android:textSize="20dp"
+                app:icon="@drawable/pngegg__5_"
+                app:iconGravity="textEnd"
+                app:iconPadding="70dp"
+                app:iconSize="50dp" />
+
+
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20sp"
+                app:srcCompat="@drawable/pngegg__1_" />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15sp"
+                android:backgroundTint="#DA8181"
+                android:gravity="center"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".Services">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/servicesbackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#DA8181"
+                android:text="Back"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/servicesLogo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pngegg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:text="PRICE UPDATED as of:"
+                android:textColor="#DA8181"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DateAndTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="10sp"
+                android:hint="Date"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:id="@+id/updatesImageView"
+                android:layout_width="350dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pngwing_com__1_" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="SERVICES"
+                android:textColor="#DA8181"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="1. Haircut"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/pethaircut" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Our pet care business offers professional grooming services provided by passionate groomers who ensure your pets receive top-notch care and styling. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Breed-specific styling haircut "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Blower drying "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Combing"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Ear cleaning "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Fragrance application  "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php500.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php350.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php200.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="2. Bath and Brush"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/how_to_bathe_dog_1587137329" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Treat your furry friends to a refreshing bath and thorough brushing to keep their coat healthy and shiny." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Shampoo and Conditioning "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Brushing and Combing (Free Brush) "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Ear Cleaning"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Towel drying"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Fragrance application  "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php600.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php400.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php300.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="3. Nail Trimming"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/petnailtrim" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Maintain your pet's nail health and prevent discomfort with our professional nail trimming service. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Nail trimming"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Nail filing "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Quick inspection of paws and nails for any issues"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php200.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php150.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php100.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="4. Package 1"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/bath_and_haircut" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Combine our grooming services for a complete makeover and pampering experience for your pet." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Haircut (as mentioned in the Haircut service)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Bath and Brush (as mentioned in the Bath and Brush service)"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php800.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php650.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php400.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="5. Package 2"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/bath_and_nail_trimming" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Bath and Brush + Nail Trimming: Description: Maintain your pet's cleanliness and nail health with this package that includes a bath, brushing, and nail trimming. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Nail Trimming (as mentioned in the Nail trimming service)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Bath and Brush (as mentioned in the Bath and Brush service)"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php750.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php500.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php350.00"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="6. Package 3"
+                    android:textColor="#DA8181"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/completeset" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="Complete Set: Description: Treat your pet to the ultimate grooming experience with this comprehensive package that includes a haircut, bath and brush, and nail trimming. " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Inclusions:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Haircut (as mentioned in the Haircut service)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Nail Trimming (as mentioned in the Nail trimming service)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Bath and Brush (as mentioned in the Bath and Brush service)"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:text="Prices depends on breed:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Large Breeds - Php1200.00"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Small Breeds - Php800.00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:text="➤ Stray Animals - Php500.00"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20sp"
+                app:srcCompat="@drawable/pngegg__1_" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

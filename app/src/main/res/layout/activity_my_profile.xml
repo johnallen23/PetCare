@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D7D7"
+    tools:context=".MyProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/profilebackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:backgroundTint="#DA8181"
+                android:text="Back"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:iconGravity="start"
+                app:iconSize="30dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="PROFILE"
+                android:textColor="#DA8181"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                app:srcCompat="@drawable/kisspng_computer_icons_avatar_login_user_avatar_5ac207e6c8c133_5629676315226654468223" />
+
+            <TextView
+                android:id="@+id/usernameTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="USERNAME"
+                android:textColor="#D81B60"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="294dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="20sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="EMAIL: "
+                    android:textColor="#DA8181"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/emailTextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="sample@gmail.com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="294dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginRight="20sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="LOCATION: "
+                    android:textColor="#DA8181"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/locationTextview"
+                    android:layout_width="197dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:hint="Sample Address here" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="295dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="60sp"
+                android:layout_marginRight="20sp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="CONTACT NO: "
+                    android:textColor="#DA8181"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/numberTextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="09*********" />
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10sp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15sp"
+                android:backgroundTint="#FFBFBF"
+                android:gravity="center"
+                android:text="Logout"
+                android:textColor="#A76007"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
