@@ -44,4 +44,4 @@ ITE Department
 Bachelor of Science in Information Technology
 
 # Date:
-January 17, 2022
+July 29, 2023
