@@ -20,9 +20,8 @@ To facilitate transparency and communication, PetCare allows vet doctors to uplo
 These records are accessible to the vet, enabling them to review the pet's medical history and ensure that the requested service is suitable and safe for the pet.
 
 # Version 1.0:
-PetCare is currently in its 1.0 version, and though it is already a powerful tool for pet care management, the development team continues to work diligently on improving and expanding the app's functionalities. Feedback from users is highly encouraged to make subsequent versions even more robust and user-friendly.
-
-With PetCare, pet owners can confidently manage their pets' care while vets can efficiently organize their schedules and provide the best possible service. This app is poised to revolutionize the pet care industry by bringing together pet owners and veterinary professionals through a seamless and technologically advanced platform.
+PetCare is currently in its 1.0 version, and though it is currently on a simple process for pet care management, the development aims to work on improving and expanding the app's functionalities.
+With PetCare, pet owners can confidently manage their pets' care while vets can efficiently organize their schedules and provide the best possible service.
 
 # Researcher/Developer:
 Florencio, John Allen
