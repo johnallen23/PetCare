@@ -16,8 +16,8 @@ PetCare acknowledges the dynamic nature of pet owners' lives and the possibility
 4. Memo Upload for Price Increase:
 To facilitate transparency and communication, PetCare allows vet doctors to upload memos in case of any price increase in their services. This information is instantly displayed to all users, ensuring that pet owners are well-informed about any changes in pricing before making new reservations.
 
-5. Uploading Medical Records:
-PetCare goes above and beyond by providing a secure platform for pet owners to upload and store their pets' medical records. These records are accessible to the vet, enabling them to review the pet's medical history and ensure that the requested service is suitable and safe for the pet.
+5. Uploading Medical Records/Certificate:
+These records are accessible to the vet, enabling them to review the pet's medical history and ensure that the requested service is suitable and safe for the pet.
 
 # Version 1.0:
 PetCare is currently in its 1.0 version, and though it is already a powerful tool for pet care management, the development team continues to work diligently on improving and expanding the app's functionalities. Feedback from users is highly encouraged to make subsequent versions even more robust and user-friendly.
