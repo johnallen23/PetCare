@@ -2,7 +2,7 @@
 
 **Background of PetCare App 1.0:**
 
-PetCare is a revolutionary mobile application designed to streamline the process of scheduling pet care services for pet owners and veterinary doctors alike. The app was conceived as a project for the Mobile Development subject, and it has quickly become an indispensable tool for pet owners and vets to manage pet care appointments efficiently.
+PetCare is a mobile application designed to streamline the process of scheduling pet care services for pet owners and veterinary doctors alike. The app was conceived as a project for the Mobile Development subject, and it has quickly become an indispensable tool for pet owners and vets to manage pet care appointments efficiently.
 
 1. Convenience for Pet Owners:
 PetCare aims to provide pet owners with the ultimate convenience in scheduling pet care services. Through the app's user-friendly interface, pet owners can easily access their accounts and send schedule requests for various services for their beloved pets. Whether it's a routine check-up, vaccination, grooming, or any other pet-related service, PetCare allows pet owners to book appointments at their preferred time and location.
