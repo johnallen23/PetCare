@@ -19,28 +19,28 @@ To facilitate transparency and communication, PetCare allows vet doctors to uplo
 5. Uploading Medical Records/Certificate:
 These records are accessible to the vet, enabling them to review the pet's medical history and ensure that the requested service is suitable and safe for the pet.
 
-# Version 1.0:
-PetCare is currently in its 1.0 version, and though it is currently on a simple process for pet care management, the development aims to work on improving and expanding the app's functionalities.
+## Version 1.0: ##
+PetCare is currently in its **1.0 version**, and though it is currently on a simple process for pet care management, the development aims to work on improving and expanding the app's functionalities.
 With PetCare, pet owners can confidently manage their pets' care while vets can efficiently organize their schedules and provide the best possible service.
 
-# Researcher/Developer:
-Florencio, John Allen
-Donan, Kenneth Darel
-Martinez, Albert
-Macaslin, Stephen
+## Researcher/Developer: ##
+* Florencio, John Allen
+* Donan, Kenneth Darel
+* Martinez, Albert
+* Macaslin, Stephen
 
-# Adviser:
+## Adviser: ##
 Jefferson A. Costales
 
-# School Name:
+## School Name: ##
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 Nagtahan, Sampaloc, Manila, Philippines
 College of Arts and Sciences
 
 ITE Department
 
-# Course:
+### Course: ###
 Bachelor of Science in Information Technology
 
-# Date:
+### Date: ###
 July 29, 2023
