@@ -1,8 +1,10 @@
 # PetCare
+## Video Link ##
+**https://bit.ly/petcarevideo**
+__________________________________
 
+## Background of PetCare App 1.0: Some Key Features of the app ##
 ![Graphical feature](https://github.com/johnallen23/PetCare/assets/74499662/b064a8e8-ba09-4446-8880-508f3bec8706)
-
-**Background of PetCare App 1.0: Some Key Features of the app**
 
 PetCare is a mobile application designed to streamline the process of scheduling pet care services for pet owners and veterinary doctors alike. The app was conceived as a project for the Mobile Development subject, a general tool for pet owners and vets to manage pet care appointments efficiently.
 
