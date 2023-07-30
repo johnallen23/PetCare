@@ -1,7 +1,4 @@
 # PetCare
-## Video Link ##
-**https://bit.ly/petcarevideo**
-__________________________________
 
 ## Background of PetCare App 1.0: Some Key Features of the app ##
 ![Graphical feature](https://github.com/johnallen23/PetCare/assets/74499662/b064a8e8-ba09-4446-8880-508f3bec8706)
@@ -36,6 +33,10 @@ These records are accessible to the vet, enabling them to review the pet's medic
 ## Version 1.0: ##
 PetCare is currently in its **1.0 version**, and though it is currently on a simple process for pet care management, the development aims to work on improving and expanding the app's functionalities.
 With PetCare, pet owners can confidently manage their pets' care while vets can efficiently organize their schedules and provide the best possible service.
+
+## Video Link ##
+**https://bit.ly/petcarevideo**
+__________________________________
 
 ## Researcher/Developer: ##
 * Florencio, John Allen
